@@ -7,7 +7,6 @@ public class Main {
         System.out.println("Hello World!");
 
         // Class 02
-        // Primitive types
         int age = 22;
         System.out.println("Age: " + age);
 
