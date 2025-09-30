@@ -1,4 +1,4 @@
-package Exercises;
+package br.com.hulysses.exercises.variables;
 
 public class TaxCalculatorOne {
 

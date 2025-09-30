@@ -1,4 +1,4 @@
-package Exercises;
+package br.com.hulysses.exercises.conditionals.ifs;
 
 import java.util.Scanner;
 
