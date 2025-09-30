@@ -25,10 +25,18 @@ public class Main {
         System.out.println("Name: " + name);
 
         // Class 05
-        boolean isEmployed = true;
+        boolean isEmployed = false;
         System.out.println("Is Employed: " + isEmployed);
 
         // Class 06
+        if (age > 18) {
+            System.out.println(name + " is an adult.");
+        }
 
+        if (isEmployed) {
+            System.out.println(name + " is employed.");
+        } else {
+            System.out.println(name + " is not employed.");
+        }
     }
 }
