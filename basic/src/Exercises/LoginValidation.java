@@ -9,7 +9,7 @@ public class LoginValidation {
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
 
-        if (name.isBlank()) {
+        if (name.isBlank() || name.length() < 3) {
             System.out.println("Invalid name");
         } else {
             System.out.println("Welcome " + name);
