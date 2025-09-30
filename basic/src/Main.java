@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Hello World!");
 
         // Class 02
-        int age = 1;
+        int age = 19;
         System.out.println("Age: " + age);
 
         // Class 03
@@ -45,6 +45,11 @@ public class Main {
         if (isEmployed && age < 18) {
             System.out.println(name + " is a minor and employed.");
         }
+
+        if (isEmployed || age < 18) {
+            System.out.println(name + " is a minor and employed.");
+        }
+
 
         // Class 08
         Scanner scanner = new Scanner(System.in);
