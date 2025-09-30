@@ -1,6 +1,6 @@
 package Exercises;
 
-public class TaxCalculator {
+public class TaxCalculatorOne {
 
     public static void main(String[] args) {
         float salary = 2500.00F;
