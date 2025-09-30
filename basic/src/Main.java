@@ -11,5 +11,24 @@ public class Main {
         System.out.println("Age: " + age);
 
         // Class 03
+        double height = 1.75;
+        System.out.println("Height: " + height);
+
+        float weight = 70.5F;
+        System.out.println("Weight: " + weight);
+
+        // Class 04
+        char sex = 'M';
+        System.out.println("Sex: " + sex);
+
+        String name = "John Doe";
+        System.out.println("Name: " + name);
+
+        // Class 05
+        boolean isEmployed = true;
+        System.out.println("Is Employed: " + isEmployed);
+
+        // Class 06
+
     }
 }
