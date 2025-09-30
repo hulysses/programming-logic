@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
     // Entry point of the program
@@ -43,5 +45,11 @@ public class Main {
         if (isEmployed && age < 18) {
             System.out.println(name + " is a minor and employed.");
         }
+
+        // Class 08
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String userName = scanner.nextLine();
+        System.out.println("Hello, " + userName + "!");
     }
 }
