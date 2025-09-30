@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Hello World!");
 
         // Class 02
-        int age = 22;
+        int age = 1;
         System.out.println("Age: " + age);
 
         // Class 03
@@ -25,7 +25,7 @@ public class Main {
         System.out.println("Name: " + name);
 
         // Class 05
-        boolean isEmployed = false;
+        boolean isEmployed = true;
         System.out.println("Is Employed: " + isEmployed);
 
         // Class 06
@@ -37,6 +37,11 @@ public class Main {
             System.out.println(name + " is employed.");
         } else {
             System.out.println(name + " is not employed.");
+        }
+
+        // Class 07
+        if (isEmployed && age < 18) {
+            System.out.println(name + " is a minor and employed.");
         }
     }
 }
