@@ -58,5 +58,19 @@ public class Main {
         System.out.println("Hello, " + userName + "!");
 
         // Class 09
+        int order = 1;
+        switch (order) {
+            case 1:
+                System.out.println("First place");
+                break;
+            case 2:
+                System.out.println("Second place");
+                break;
+            case 3:
+                System.out.println("Third place");
+                break;
+            default:
+                System.out.println("Participant");
+        }
     }
 }
