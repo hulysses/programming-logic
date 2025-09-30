@@ -72,5 +72,12 @@ public class Main {
             default:
                 System.out.println("Participant");
         }
+
+        // Class 10
+        int count = 1;
+        while (count <= 10) {
+            System.out.println(count);
+            count++;
+        }
     }
 }
